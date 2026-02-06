@@ -10,8 +10,8 @@ I want to build a small and purposeful system that models this work more cleanly
 
 ## Specific Goals
 - Design a relational database for members, campaigns, and interactions  
-- Build backend features to add, update, delete, and view records  
-- Support filtering by campaign, member, and date range  
+- Implement database models using an ORM (SQLAlchemy)  
+- Build backend features and API routes using FastAPI to add, update, delete, and view records    
 - Generate summary reports (totals, engagement counts, etc.)  
 - Export results to CSV  
 - Document setup and weekly progress on my GitHub Pages site  
