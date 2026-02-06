@@ -18,7 +18,7 @@
 - A challenge is choosing a project that is complex enough to learn and demonstrate backend skills that is feasible within the contraints of class
 
 ### Reflection
-- Helpful nstructor feedback helped to narrow the project toward practical backend systems
+- Helpful instructor feedback helped to narrow the project toward practical backend systems
 
 
 ## Week 3 - Narrowing scope and Project Proposal 
@@ -38,4 +38,4 @@
 - Keeping focus on learning and implementing basics
 
 ### Reflection 
-Writing the project proposal this week definitely helped to clarify what is needed and what the timeline will look like. I am excited to get started exploring and implementing these systems. 
+- Writing the project proposal this week definitely helped to clarify what is needed and what the timeline will look like. I am excited to get started exploring and implementing these systems. 
