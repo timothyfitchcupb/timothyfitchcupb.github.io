@@ -48,6 +48,7 @@
 - Put together a simple ER diagram to clarify relationships
 - Created initial SQLite database and ORM models (Member, Campaign, Interaction)
 - Built basic API routes and tested them locally using /docs
+- Slight aesthetic tweaks to project website 
 
 ### What do I plan to do this week?
 - Add CRUD routes for campaigns and interactions
