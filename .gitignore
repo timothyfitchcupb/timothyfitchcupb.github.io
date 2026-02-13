@@ -1,1 +1,8 @@
 .ipynb_checkpoints/ 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.db
+# Jupyter
+.ipynb_checkpoints/
