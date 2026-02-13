@@ -55,6 +55,7 @@
 - Implement basic filtering queries (by member/campaign)
 - Continue further refining models and documenting my progress
 - Commit to creating a better time management plan for this project going forward
+- Improve aesthetic of project website with stylesheets
 
 ### Are there any impediments?
 - My biggest impediment so far to this project is time management. I have tried to get better at clocking the hours but sometimes I find myself either getting lost in something or distracted by something else so that it is hard to know exactly how much time I am spending. I have  started using a timer and will continue this going forward. 
