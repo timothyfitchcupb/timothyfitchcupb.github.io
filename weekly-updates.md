@@ -38,4 +38,30 @@
 - Keeping focus on learning and implementing basics
 
 ### Reflection 
-- Writing the project proposal this week definitely helped to clarify what is needed and what the timeline will look like. I am excited to get started exploring and implementing these systems. 
+- Writing the project proposal this week definitely helped to clarify what is needed and what the timeline will look like. I am excited to get started exploring and implementing these systems.
+
+
+## Week 4 - Backend Setup / Initial Implementation
+
+### What did I do last week?
+- Researched FastAPI and SQLAlchemy and set up the project structure
+- Put together a simple ER diagram to clarify relationships
+- Created initial SQLite database and ORM models (Member, Campaign, Interaction)
+- Built basic API routes and tested them locally using /docs
+
+### What do I plan to do this week?
+- Add CRUD routes for campaigns and interactions
+- Insert sample data for testing
+- Implement basic filtering queries (by member/campaign)
+- Continue further refining models and documenting my progress
+- Commit to creating a better time management plan for this project going forward
+
+### Are there any impediments?
+- My biggest impediment so far to this project is time management. I have tried to get better at clocking the hours but sometimes I find myself either getting lost in something or distracted by something else so that it is hard to know exactly how much time I am spending. I have  started using a timer and will continue this going forward. 
+
+### Reflection
+Getting the backend running locally made the project feel much more concrete and confirmed that the overall structure is working as intended. I am excited to further flush this out and to build some fun features on top of what I have. I am also excited to flesh out a time management plan that will help me going forward. 
+
+### Screenshot
+![FastAPI running locally](images/week4-api.png)
+
