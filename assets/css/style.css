@@ -1,0 +1,57 @@
+/*  DARK GREEN SIDE BACKGROUND  */
+body {
+  background-color: #0b3a1e;   
+  margin: 0;
+  padding: 0;
+}
+
+/* CENTERED WHITE COLUMN  */
+/* GitHub Pages uses .wrapper for layout */
+.wrapper {
+  background-color: #ffffff;
+  max-width: 900px;        /* width  white column */
+  margin: 0 auto;          /* center horizontally */
+  padding: 40px 50px;
+
+  border-left: 4px solid #000;
+  border-right: 4px solid #000;
+}
+
+/* Top + bottom border to complete the rectangle */
+.site-header .wrapper {
+  border-top: 4px solid #000;
+  padding-top: 30px;
+}
+
+.site-footer .wrapper {
+  border-bottom: 4px solid #000;
+  padding-bottom: 30px;
+}
+
+/* TEXT COLORS */
+.wrapper,
+.wrapper p,
+.wrapper li {
+  color: #000;
+}
+
+.wrapper h1,
+.wrapper h2,
+.wrapper h3 {
+  color: #0b3a1e;  /* dark green headings */
+}
+
+/* LINKS */
+.wrapper a {
+  color: #0b5e3c;
+}
+
+.wrapper a:hover {
+  text-decoration: underline;
+}
+
+/* === OPTIONAL: cleaner horizontal rules === */
+hr {
+  border: none;
+  border-top: 1px solid #bbb;
+}
