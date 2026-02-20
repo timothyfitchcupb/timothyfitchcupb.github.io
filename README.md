@@ -1,10 +1,31 @@
-# About This Project
 # Healthcare Worker Advocacy CRM
+## About This Project
 
 ## Overview
 This project is a backend system designed to manage and report on nonprofit advocacy data. It models how organizations track members, campaigns, and interactions in a structured database instead of spreadsheets or other less effective manual systems.
 
 The project focuses on backend development, database design, and working with structured data.
+
+## Data Model (ER Diagram)
+
+Member (1) ----< Interaction >---- (1) Campaign
+
+### Member
+- id (PK)
+- name
+- email
+
+### Campaign
+- id (PK)
+- name
+- description
+
+### Interaction
+- id (PK)
+- member_id (FK)
+- campaign_id (FK)
+- date
+- notes
 
 ## Motivation
 Many advocacy and union efforts rely on spreadsheets that are difficult to maintain and use for coordination or reporting. This project explores how a simple purposefully built system can organize that information more effectively.
