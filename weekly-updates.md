@@ -1,6 +1,6 @@
 # Weekly Project Updates
 
-## Week 2 – Project Ideas and Setup
+### Week 2 – Project Ideas and Setup
 
 ### What did I do last week?
 - Reviewed course expectations 
@@ -21,7 +21,7 @@
 - Helpful instructor feedback helped to narrow the project toward practical backend systems
 
 
-## Week 3 - Narrowing scope and Project Proposal 
+### Week 3 - Narrowing scope and Project Proposal 
 
 ### What did I Do last week?
 - Planned out project ideas, timeline, amd goal more clearly
@@ -41,7 +41,7 @@
 - Writing the project proposal this week definitely helped to clarify what is needed and what the timeline will look like. I am excited to get started exploring and implementing these systems.
 
 
-## Week 4 - Backend Setup / Initial Implementation
+### Week 4 - Backend Setup / Initial Implementation
 
 ### What did I do last week?
 - Researched FastAPI and SQLAlchemy and set up the project structure
@@ -67,7 +67,7 @@ Getting the backend running locally made the project feel much more concrete and
 ### Screenshot
 ![FastAPI running locally](images/week4-api.png)
 
-## Week 5 — Website Refinement / Database Preparation
+### Week 5 — Website Refinement / Database Preparation
 
 ### What did I do last week?
 

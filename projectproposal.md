@@ -1,5 +1,5 @@
 # Project Proposal
-## Healthcare Worker Advocacy CRM
+### Healthcare Worker Advocacy CRM
 ### Vision
 
 My vision is to build a simple backend system that manages and reports on nonprofit advocacy data. The goal is to strengthen my skills in database design, backend programming, and working with structured data in a practical and real world setting.
