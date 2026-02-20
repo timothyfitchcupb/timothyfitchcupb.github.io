@@ -4,10 +4,13 @@ title: Home
 
 # Home
 ## Timothy Fitch 
-Timothy.Fitch@colorado.edu 
+Timothy.Fitch@colorado.edu || timjosfitch@gmail.com
+
 
 
 ### About Me
+
+<img src="images/timheadshot1.jpg" alt="Timothy Fitch" width="200">
 
 I am an Applied Computer Science student at the University of Colorado Boulder with a prior B.A. in Political Science and History from the University of Kansas. My academic focus is on databases, backend development, data analysis, and practical software systems. I am especially interested in building tools that support organizations, advocacy work, and data driven decision making.
 
