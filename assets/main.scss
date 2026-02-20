@@ -3,37 +3,45 @@
 
 @import "minima"; //load theme
 
-.home > .page-heading { display: none !important; } // hide theme title
 
-.post-header { display: none; } // hide auto display headers
-.post-title { display: none; }  
-.page-heading { display: none; } 
-
-body { background: #0b3a1e; margin: 0; } //green sides
+/* hide theme auto title (keep markdown title) */
+.home > .page-heading { display: none !important; } //hide extra Index
 
 
+/* green sides */
+body { background: #0b3a1e; margin: 0; } //green
+
+
+/* make outer sections transparent (DO NOT touch .wrapper) */
 .site-header,
 .page-content,
-.site-footer,
-.site-header .wrapper,
-.page-content .wrapper,
-.site-footer .wrapper {
-  background: transparent;
-} //show green
+.site-footer {
+  background: transparent; //show green
+}
 
-.wrapper { // white center column
-  background: #fff;                 //white
+
+/* white center column */
+.wrapper {
+  background: #fff;                 //white center
   max-width: 950px;                 //width
   margin: 0 auto;                   //center
   padding: 30px 40px;               //spacing
   border-left: 4px solid #000;      //left border
   border-right: 4px solid #000;     //right border
-  color: #000;                      //readable text
+  color: #000;                      //text
 }
 
+
+/* top + bottom borders */
 .site-header .wrapper { border-top: 4px solid #000; } //top border
 .site-footer .wrapper { border-bottom: 4px solid #000; } //bottom border
 
-h1, h2, h3 { color: #0b3a1e; } //heading color
-a { color: #0b5e3c; } //link color
 
+/* headings + links */
+h1, h2, h3 { color: #0b3a1e; } //headings
+a { color: #0b5e3c; } //links
+
+
+/* keep nav on one line */
+.site-nav { white-space: nowrap; } // no wrap
+.site-nav a { margin-right: 14px; font-size: 0.95rem; } //spacing
