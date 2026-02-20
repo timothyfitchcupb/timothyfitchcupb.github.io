@@ -12,3 +12,14 @@ body { background: #0b3a1e; } //green sides
 .page-heading,
 .post-title,
 .post-header h1 { display: none !important; } //remove theme titles
+
+//remove ugly dividing lines
+.site-header {
+  border-bottom: none;
+  box-shadow: none;
+}
+
+
+.site-footer {
+  border-top: none;
+}
