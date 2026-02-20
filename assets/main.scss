@@ -1,0 +1,24 @@
+---
+---
+
+@import "minima"; //load theme
+
+body { background: #0b3a1e; margin: 0; } //green sides
+
+.site-header, .page-content, .site-footer { background: transparent; } //show green
+
+.wrapper { // white center column
+  background: #fff;                 //white
+  max-width: 950px;                 //width
+  margin: 0 auto;                   //center
+  padding: 30px 40px;               //spacing
+  border-left: 4px solid #000;      //left border
+  border-right: 4px solid #000;     //right border
+  color: #000;                      //readable text
+}
+
+.site-header .wrapper { border-top: 4px solid #000; } //top border
+.site-footer .wrapper { border-bottom: 4px solid #000; } //bottom border
+
+h1, h2, h3 { color: #0b3a1e; } //heading color
+a { color: #0b5e3c; } //link color

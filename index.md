@@ -1,3 +1,4 @@
+# Index
 ## Timothy Fitch 
 ### CSPB 3112
 
