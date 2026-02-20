@@ -3,6 +3,8 @@
 
 @import "minima"; //load theme
 
+.home > .page-heading { display: none !important; } // hide theme title
+
 .post-header { display: none; } // hide auto display headers
 .post-title { display: none; }  
 .page-heading { display: none; } 
