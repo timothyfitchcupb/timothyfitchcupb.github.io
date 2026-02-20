@@ -67,3 +67,34 @@ Getting the backend running locally made the project feel much more concrete and
 ### Screenshot
 ![FastAPI running locally](images/week4-api.png)
 
+## Week 5 — Website Refinement / Database Preparation
+
+### What did I do last week?
+
+Focused mostly on aesthetic improvements and structural updates to the project website  
+Spent time refining layout, stylesheets, and overall presentation  
+Completed proposal reviews and other class tasks  
+Tracked my time more carefully and realized I was going over the intended weekly limit  
+
+### What do I plan to do this week?
+
+Set up a test database environment with sample entries  
+Make sure database connectivity and basic functionality are working  
+Begin deeper work on database structure and validation  
+Continue refining models and documenting progress  
+
+### Are there any impediments?
+
+Time management is still the main impediment  
+It’s easy to get stuck tweaking small details and lose track of time  
+
+### Reflection 
+
+Going forward, I plan to use stricter time blocks for each task  
+
+• ~2 hours for website/aesthetic work  
+• ~2 hours for database development  
+• ~1 hour buffer for anything else that comes up  
+
+This should help keep the project within the weekly time limits while still making steady progress.
+
