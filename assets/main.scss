@@ -1,10 +1,9 @@
 ---
 ---
 
-@import "minima"; //keep theme
+@import "minima";
 
-body {
-  background: #0b3a1e; //dark green sides
-}
+body { background: #0b3a1e; } //green sides
 
-.page-heading { display: none !important; } //remove theme title
+.page-heading,
+.post-title { display: none !important; } //no double titles
