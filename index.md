@@ -1,7 +1,4 @@
 <link rel="stylesheet" href="style.css">
-
-<main>
-
 # Healthcare Worker Advocacy CRM
 ## Timothy Fitch 
 ### CSPB 3112
@@ -22,4 +19,3 @@ This site will be updated weekly with progress reports.
 ### Current Progress Screenshots
 ![FastAPI running locally](images/week4-api.png)
 
-</main>
