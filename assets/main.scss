@@ -3,10 +3,10 @@
 
 @import "minima";
 
-body { background: #0b3a1e; } // green sides
+body { background: #0b3a1e; } //green sides
 
-.wrapper { background: #fff; } // white center column
-
-.page-heading,
-.post-title,
-.post-header { display: none !important; } // remove theme titles
+.site-header .wrapper,
+.page-content .wrapper,
+.site-footer .wrapper {
+  background: #fff !important; //force white center
+}
