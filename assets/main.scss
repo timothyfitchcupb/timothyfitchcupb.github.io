@@ -3,7 +3,9 @@
 
 @import "minima"; //load theme
 
-.page-heading { display: none; } //hide auto title
+.post-header { display: none; } // hide auto display headers
+.post-title { display: none; }  
+.page-heading { display: none; } 
 
 body { background: #0b3a1e; margin: 0; } //green sides
 
