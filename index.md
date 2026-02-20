@@ -1,4 +1,3 @@
-# Healthcare Worker Advocacy CRM
 ## Timothy Fitch 
 ### CSPB 3112
 
