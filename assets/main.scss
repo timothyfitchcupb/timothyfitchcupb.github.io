@@ -7,6 +7,8 @@ body { background: #0b3a1e; } //green sides
 
 .site-header .wrapper,
 .page-content .wrapper,
-.site-footer .wrapper {
-  background: #fff !important; //force white center
-}
+.site-footer .wrapper { background: #fff; } //keep white center
+
+.page-heading,
+.post-title,
+.post-header h1 { display: none !important; } //remove theme titles
