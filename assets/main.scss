@@ -1,8 +1,10 @@
 ---
 ---
 
-@import "minima"; // keep theme
+@import "minima"; //keep theme
 
 body {
-  background: #0b3a1e; // dark green sides
+  background: #0b3a1e; //dark green sides
 }
+
+.page-heading { display: none !important; } //remove theme title
