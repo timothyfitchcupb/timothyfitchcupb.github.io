@@ -4,6 +4,8 @@ title: Home
 
 # Home
 ## Timothy Fitch 
+Timothy.Fitch@colorado.edu 
+
 
 ### About Me
 
