@@ -1,6 +1,7 @@
 from typing import Optional, List
 
 from fastapi import FastAPI, Depends
+from fastapi import HTTPException
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
@@ -28,6 +29,11 @@ class MemberCreate(BaseModel):
     email: Optional[str] = None
 
 
+class MemberUpdate(BaseModel):
+    name: Optional[str] = None
+    email: Optional[str] = None
+
+
 class MemberOut(BaseModel):
     id: int
     name: str
@@ -52,3 +58,34 @@ def create_member(payload: MemberCreate, db: Session = Depends(get_db)):
 @app.get("/members", response_model=List[MemberOut])
 def list_members(db: Session = Depends(get_db)):
     return db.query(Member).all()  #return all members
+
+
+@app.get("/members/{member_id}", response_model=MemberOut)
+def get_member(member_id: int, db: Session = Depends(get_db)):
+    member = db.query(Member).filter(Member.id == member_id).first()
+    if not member:
+        return {"error": "Member not found"}
+    return member    
+
+
+@app.patch("/members/{member_id}", response_model=MemberOut)
+def update_member(member_id: int, payload: MemberUpdate, db: Session = Depends(get_db)):
+    member = db.query(Member).filter(Member.id == member_id).first()
+    if not member:
+        return {"error": "Member not found"}
+    if payload.name is not None:
+        member.name = payload.name
+    if payload.email is not None:
+        member.email = payload.email
+    db.commit()
+    db.refresh(member)
+    return member
+
+@app.delete("/members/{member_id}")
+def delete_member(member_id: int, db: Session = Depends(get_db)):
+    member = db.query(Member).filter(Member.id == member_id).first()
+    if not member:
+        raise HTTPException(status_code=404, detail="Member not found")
+    db.delete(member)
+    db.commit()
+    return {"deleted": True, "member_id": member_id}

@@ -71,22 +71,22 @@ Getting the backend running locally made the project feel much more concrete and
 
 ### What did I do last week?
 
-Focused mostly on aesthetic improvements and structural updates to the project website  
-Spent time refining layout, stylesheets, and overall presentation  
-Completed proposal reviews and other class tasks  
-Tracked my time more carefully and realized I was going over the intended weekly limit  
+- Focused mostly on aesthetic improvements and structural updates to the project website  
+- Spent time refining layout, stylesheets, and overall presentation  
+- Completed proposal reviews and other class tasks  
+- Tracked my time more carefully and realized I was going over the intended weekly limit  
 
 ### What do I plan to do this week?
 
-Set up a test database environment with sample entries  
-Make sure database connectivity and basic functionality are working  
-Begin deeper work on database structure and validation  
-Continue refining models and documenting progress  
+- Set up a test database environment with sample entries  
+- Make sure database connectivity and basic functionality are working  
+- Begin deeper work on database structure and validation  
+- Continue refining models and documenting progress  
 
 ### Are there any impediments?
 
-Time management is still the main impediment  
-It’s easy to get stuck tweaking small details and lose track of time  
+- Time management is still the main impediment  
+- It’s easy to get stuck tweaking small details and lose track of time  
 
 ### Reflection 
 
@@ -98,3 +98,27 @@ Going forward, I plan to use stricter time blocks for each task
 
 This should help keep the project within the weekly time limits while still making steady progress.
 
+### Week 6 - Member CRUD Implementation
+
+### What did I do last week? 
+- Installed DB Browser for SQLite and verified my database file directly
+- Inserted a few pieces of realistic test data using the FastAPI /docs interface
+- Implemented and tested full CRUD operations for Members (POST, GET, PUT/PATCH, DELETE)
+- Verified each operation worked correctly both through the API and inside the database
+
+### What do I plan to do this week?
+- Begin implementing Campaign and Interaction entities
+- Extend the database schema to support relationships between tables
+- Add CRUD routes for campaigns and interactions
+- Continue testing with sample data
+
+### Are there any impediments?
+- Still need to stay disciplined about time management
+
+### Reflection
+Based on Prof Guinn's advice on my post last week I devoted the maximum time possible this week to completing the full CRUD implementation. 
+Completing the full CRUD loop for members makes the backend feel like a real working system and not just a prototype. Being able to verify changes directly in the database confirmed that the API and data layer are functioning correctly. This milestone provides a solid foundation for what I want to add next.
+
+### Screenshot 
+![Week 6 CRM with CRUD running](images/week6crmss.png)
+![Week 6 DB Browser](images/dbbrowseweek6rss.png)
