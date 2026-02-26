@@ -36,6 +36,7 @@ My vision for CSPB 3112: Professional Development in Computer Science is to buil
 - Week 3: Beginning Database Design
 - Week 4: Backend Setup and Initial Implementation
 - Week 5: Website Refinement / Database Preparation
+- Week 6: Member CRUD Implementation
   
 ### Navigation
 - [Weekly Updates](weekly-updates.md)
@@ -43,5 +44,6 @@ My vision for CSPB 3112: Professional Development in Computer Science is to buil
 
 
 ### Current Progress Screenshots
-![FastAPI running locally](images/week4-api.png)
+![Week 6 CRM with CRUD running](images/week6crmss.png)
+![Week 6 DB Browser](images/dbbrowseweek6rss.png)
 
