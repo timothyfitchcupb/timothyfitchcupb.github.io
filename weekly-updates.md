@@ -119,6 +119,63 @@ This should help keep the project within the weekly time limits while still maki
 Based on Prof Guinn's advice on my post last week I devoted the maximum time possible this week to completing the full CRUD implementation. 
 Completing the full CRUD loop for members makes the backend feel like a real working system and not just a prototype. Being able to verify changes directly in the database confirmed that the API and data layer are functioning correctly. This milestone provides a solid foundation for what I want to add next.
 
+
+### Week 7 - Mid-Semester Project Update 
+
+### Original Project and Goals
+My project focuses on building a simple backend system to manage nonprofit advocacy data. The goal for me is to develop practical experience with database design, backend programming, and working with structured data by creating a small CRM style application. The system I a, building uses FastAPI, SQLAlchemy, and SQLite to store and manage information about members, campaigns, and interactions. Through this project I aimed to design a relational database, build API routes for creating and managing records, and document the development process through my personal GitHub Pages site.
+
+### Changes
+The overall scope of the project has remained mostly consistent with the original proposal. The primary adjustment has been focusing more heavily on the backend architecture and API functionality rather than spending excessive time on the website interface. Early in the project I also spent more time than expected on formatting and site presentation, so I shifted toward prioritizing database development and backend logic in order to really stay aligned with the goals of the project. So far time management is a focus of this project in a way I was maybe unprepared for at the beginning, but I think getting time management under control has been to my advantage and the advantage of the project because it has allowed me to better rank priorities and where my focus needs to be. 
+
+#### Accomplishments
+So far I have designed the relational schema and implemented the core database models for Members, Campaigns, and Interactions. The backend API is running locally using FastAPI and supports full CRUD operations for these entities. I tested each route through the built in API documentation interface and verified that records are correctly created, retrieved, updated, and deleted directly within the SQLite database using DB Browser. I have also built my personal project website to document progress, including the project proposal, ER diagram, and weekly updates.
+
+### Reflection
+At this point the backend structure of the system is functioning and the database relationships between members, campaigns, and interactions are working as intended. This milestone confirms that the core architecture of the project is sound. Moving forward, my focus will be on expanding functionality such as additional queries, filtering, reporting logic, and data export features. Continuing to manage time carefully and focusing on incremental backend improvements will help ensure that the remaining project goals are completed successfully.
+Personally, I am pretty happy with my progress so far, and I look forward to finishing the development of my Healthcare Advocacy Worker CRM. 
+Within the last week I have been in touch with an extremely small cancer patient advocacy nonprofit foundation that my partner works with, and they are interested in having me work with them to create a real database of their members. I look forward to flushing out this project to be able to use it as a real world example for what could potentially be done for a small nonprofit foundation. 
+
+### Timeline of Remaining Work
+
+Week 8: Queries and Filtering
+Implement basic filtering and query functionality for the API, such as retrieving interactions by member or campaign. Continue testing API behavior and verifying results directly in the database.
+
+Week 9: Reporting Features
+Develop simple reporting logic such as summary counts, engagement totals, or basic statistics about campaigns and interactions.
+
+Week 10: Data Export
+Implement CSV export functionality so data can be exported from the database for reporting or analysis.
+
+Week 11-12: Testing / Documentation
+Improve code organization, add additional testing for API routes, and document setup instructions and system functionality in the repo and project website.
+
+Week 13 :Final Cleanup / Report
+Perform final code cleanup, review project documentation, and complete the final project report. Make sure the personal website is fully done and updated and ready to share.
+
+
+### Week 8 - Queries and Filtering
+
+### What did I do last week? 
+- Added additional sample data to the database (in pretty much every category) to support more meaningful testing of query behavior
+- Tested filtering functionality for retrieving interactions by member and by campaign through the API
+- Verified that filtered results returned by the API matched the underlying data stored in the SQLite database using DB Browser
+
+### What do I plan to do this week?
+- Begin implementing simple reporting style queries using the existing interaction data
+- Explore ways to generate summary information such as interaction counts by campaign or member
+- Continue testing API behavior to ensure results remain consistent with the database
+- Update to website / layout and aesthetic
+
+### Are there any impediments?
+- No major impediments at the moment. The backend structure and database relationships are working correctly, so the main focus now is continuing to build functionality on top of the existing system.
+- One impediment to last week ended up being my health, I was under the weather for much of the week and it made it hard to fully achieve what I wanted to this week, but I still ended up in a place I was happy with.
+
+### Reflection
+By expanding the dataset and testing the filtering functionality I helped confirm that the API queries are behaving correctly and that the results I am getting align with the database records. This step strengthens my confidence in the backend design and prepares the system for more advanced queries and reporting features in the next stage of my project.
+
+
+
 ### Screenshot 
 ![Week 6 CRM with CRUD running](images/week6crmss.png)
 ![Week 6 DB Browser](images/dbbrowseweek6rss.png)
