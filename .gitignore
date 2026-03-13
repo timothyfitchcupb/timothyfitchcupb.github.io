@@ -6,3 +6,5 @@ __pycache__/
 *.db
 # Jupyter
 .ipynb_checkpoints/
+#ignore SQLite database
+crm.db
