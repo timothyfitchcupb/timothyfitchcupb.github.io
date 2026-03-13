@@ -44,6 +44,5 @@ My vision for CSPB 3112: Professional Development in Computer Science is to buil
 
 
 ### Current Progress Screenshots
-![Week 6 CRM with CRUD running](images/week6crmss.png)
-![Week 6 DB Browser](images/dbbrowseweek6rss.png)
+![Week 8 CRM](images/week8ss.png)
 
