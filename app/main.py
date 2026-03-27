@@ -3,6 +3,7 @@ from datetime import date
 from fastapi import FastAPI, Depends, HTTPException
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
+from sqlalchemy import func
 from .database import init_db, get_db
 from .models import Member, Campaign, Interaction
 
@@ -86,6 +87,18 @@ class InteractionOut(BaseModel):
 
     class Config:
         from_attributes = True
+
+
+class CampaignReportOut(BaseModel):
+    campaign_id: int
+    title: str
+    interaction_count: int
+
+
+class MemberReportOut(BaseModel):
+    member_id: int
+    name: str
+    interaction_count: int
 
 
 # -------------------------
@@ -285,3 +298,54 @@ def delete_interaction(interaction_id: int, db: Session = Depends(get_db)):
     db.delete(interaction)
     db.commit()
     return {"deleted": True, "interaction_id": interaction_id}
+
+
+# -------------------------
+# Report endpoints
+# -------------------------
+@app.get("/reports/interactions-by-campaign", response_model=List[CampaignReportOut])
+def interactions_by_campaign(db: Session = Depends(get_db)):
+    results = (
+        db.query(
+            Campaign.id.label("campaign_id"),
+            Campaign.title.label("title"),
+            func.count(Interaction.id).label("interaction_count"),
+        )
+        .outerjoin(Interaction, Campaign.id == Interaction.campaign_id)
+        .group_by(Campaign.id, Campaign.title)
+        .order_by(Campaign.title)
+        .all()
+    )
+
+    return [
+        CampaignReportOut(
+            campaign_id=row.campaign_id,
+            title=row.title,
+            interaction_count=row.interaction_count,
+        )
+        for row in results
+    ]
+
+
+@app.get("/reports/interactions-by-member", response_model=List[MemberReportOut])
+def interactions_by_member(db: Session = Depends(get_db)):
+    results = (
+        db.query(
+            Member.id.label("member_id"),
+            Member.name.label("name"),
+            func.count(Interaction.id).label("interaction_count"),
+        )
+        .outerjoin(Interaction, Member.id == Interaction.member_id)
+        .group_by(Member.id, Member.name)
+        .order_by(Member.name)
+        .all()
+    )
+
+    return [
+        MemberReportOut(
+            member_id=row.member_id,
+            name=row.name,
+            interaction_count=row.interaction_count,
+        )
+        for row in results
+    ]

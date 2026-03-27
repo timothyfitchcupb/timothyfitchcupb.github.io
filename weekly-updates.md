@@ -174,6 +174,24 @@ Perform final code cleanup, review project documentation, and complete the final
 ### Reflection
 By expanding the dataset and testing the filtering functionality I helped confirm that the API queries are behaving correctly and that the results I am getting align with the database records. This step strengthens my confidence in the backend design and prepares the system for more advanced queries and reporting features in the next stage of my project.
 
+## Week 9 - Reporting Queries
+
+### What did I do last week?
+- Implemented simple reporting style queries that summarize interactions by campaign and by member
+- Added API endpoints that return grouped interaction counts instead of only raw row data
+- Tested the report endpoints and verified that the summary counts matched the underlying interaction data in the SQLite database
+
+### What do I plan to do this week?
+- Begin implementing data export functionality, especially CSV export for report results
+- Continue refining the reporting features so the relationships between members, campaigns, and interactions are shown more clearly
+- Improve project documentation and website content to better reflect the backend functionality that has now been built
+
+### Are there any impediments?
+- No major impediments right now. The backend and database structure are stable, so the focus is on building useful features on top of the existing system and continuing to manage time carefully.
+
+### Reflection
+This week’s work helped move the project beyond basic CRUD and filtering by making the backend summarize data in a more meaningful way. The reporting queries made the relationships between members, campaigns, and interactions much more visible, which aligns well with the overall purpose of the project and the feedback I received on the previous update.
+
 
 
 ### Screenshot 

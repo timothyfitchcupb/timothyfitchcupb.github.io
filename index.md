@@ -37,7 +37,10 @@ My vision for CSPB 3112: Professional Development in Computer Science is to buil
 - Week 4: Backend Setup and Initial Implementation
 - Week 5: Website Refinement / Database Preparation
 - Week 6: Member CRUD Implementation
-  
+- Week 7: Mid Semester Project Update
+- Week 8: Queries and Filtering
+- Week 9: Reporting Queries
+- 
 ### Navigation
 - [Weekly Updates](weekly-updates.md)
 - [Project Proposal](projectproposal.md)
