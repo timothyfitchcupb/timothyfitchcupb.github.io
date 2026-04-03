@@ -192,8 +192,25 @@ By expanding the dataset and testing the filtering functionality I helped confir
 ### Reflection
 This week’s work helped move the project beyond basic CRUD and filtering by making the backend summarize data in a more meaningful way. The reporting queries made the relationships between members, campaigns, and interactions much more visible, which aligns well with the overall purpose of the project and the feedback I received on the previous update.
 
+## Week 10 - Data Export and Pipeline Completion
 
+### What did I do last week?
+- Implemented CSV export functionality for interaction data through a new API endpoint
+- Tested the exported CSV file and verified that it matched the data stored in SQLite database
+- Confirmed again that full data pipeline is now working end to end, from input data to database storage, aggregation through reporting queries, API access, and the final export
+- Refined personal project website by reworking stylesheet to create a more modern / sleek layout. Added small features like hover to enhance picture size and reduced some redundancy.  
+
+### What do I plan to do this week?
+- Add simple tables / visual examples based on exported data to highlight the relationships in the system
+- Perform additional testing and cleanup to ensure all endpoints behave consistently
+- Create / refine end to end demo on personal website, either with video or some kind of screenshot step by step walkthrough
+
+### Are there any impediments?
+- No  real major impediments at this moment besides the usual time management. 
+
+### Reflection
+This week I completed the the major core workflow of the project by adding a CSV export as the final step in the data pipeline. The system now supports the full process of inputting data, storing it in a relational database, aggregating it through queries, accessing it through the API, and exporting it for external use. Improving the website style and enhancing the way I communicate my project on the website will also help make the project easier to present and understand going forward. My remaining work is focused on clearly communicating the results and making the system more visually intuitive.
 
 ### Screenshot 
-![Week 8 CRM](images/week8ss.png)
+![Week 10 CRM](images/week10ss.png)
 

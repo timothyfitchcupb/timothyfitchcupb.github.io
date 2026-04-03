@@ -2,7 +2,6 @@
 title: Home
 ---
 
-# Home
 ## Timothy Fitch 
 Timothy.Fitch@colorado.edu || timjosfitch@gmail.com
 
@@ -40,11 +39,7 @@ My vision for CSPB 3112: Professional Development in Computer Science is to buil
 - Week 7: Mid Semester Project Update
 - Week 8: Queries and Filtering
 - Week 9: Reporting Queries
-- 
-### Navigation
-- [Weekly Updates](weekly-updates.md)
-- [Project Proposal](projectproposal.md)
-
+- Weel 10: Data Export
 
 ### Current Progress Screenshots
 ![Week 8 CRM](images/week8ss.png)

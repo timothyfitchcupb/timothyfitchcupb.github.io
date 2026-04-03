@@ -1,6 +1,9 @@
 from typing import Optional, List
 from datetime import date
+import csv
+from io import StringIO
 from fastapi import FastAPI, Depends, HTTPException
+from fastapi.responses import Response
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from sqlalchemy import func
@@ -349,3 +352,36 @@ def interactions_by_member(db: Session = Depends(get_db)):
         )
         for row in results
     ]
+
+# -------------------------
+# Export endpoints
+# -------------------------
+
+@app.get("/export/interactions.csv")
+def export_interactions_csv(db: Session = Depends(get_db)):
+    interactions = db.query(Interaction).order_by(Interaction.date).all()
+
+    output = StringIO()
+    writer = csv.writer(output)
+    writer.writerow(["id", "member_id", "campaign_id", "date", "type", "notes"])
+
+    for interaction in interactions:
+        writer.writerow([
+            interaction.id,
+            interaction.member_id,
+            interaction.campaign_id,
+            str(interaction.date) if interaction.date else "",
+            interaction.type if interaction.type else "",
+            interaction.notes if interaction.notes else "",
+        ])
+
+    csv_content = output.getvalue()
+    output.close()
+
+    return Response(
+        content=csv_content,
+        media_type="text/csv",
+        headers={"Content-Disposition": "attachment; filename=interactions.csv"},
+    )
+
+    

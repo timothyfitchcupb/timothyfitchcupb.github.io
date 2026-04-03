@@ -3,23 +3,234 @@
 
 @import "minima";
 
-body { background: #0b3a1e; } //green sides
-
-.site-header .wrapper,
-.page-content .wrapper,
-.site-footer .wrapper { background: #fff; } //keep white center
-
-.page-heading,
-.post-title,
-.post-header h1 { display: none !important; } //remove theme titles
-
-//remove ugly dividing lines
-.site-header {
-  border-bottom: none;
-  box-shadow: none;
+/* ---------- BASE ---------- */
+body {
+  background: linear-gradient(180deg, #0b4f2f 0%, #0a462a 100%);
+  font-family: Arial, sans-serif;
+  color: #1f2937;
 }
 
+.wrapper {
+  max-width: 1100px;
+}
 
+/* ---------- HEADER ---------- */
+.site-header {
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: none;
+  max-width: 960px;
+  margin: 28px auto 22px auto;
+  padding: 0 28px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+}
+
+.site-title,
+.site-title:visited {
+  color: #1f2937;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.site-nav {
+  line-height: 70px;
+}
+
+.site-nav .page-link {
+  color: #1f2937;
+  margin-left: 22px;
+  font-size: 0.98rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.site-nav .page-link:hover {
+  color: #0b4f2f;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+.page-content {
+  max-width: 960px;
+  margin: 0 auto 42px auto;
+  padding: 52px 60px;
+  background: rgba(255, 255, 255, 0.97);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);
+  overflow: visible;
+}
+
+/* ---------- REMOVE DUPLICATE HEADERS (FIX) ---------- */
+.page-heading,
+.post-title,
+.post-header,
+.post-header h1 {
+  display: none !important;
+}
+
+/* ---------- TYPOGRAPHY ---------- */
+h1,
+h2,
+h3,
+h4 {
+  color: #111827;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 34px;
+  margin-bottom: 14px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 26px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.02rem;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  color: #374151;
+}
+
+a {
+  color: #0b4f2f;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #146c43;
+  text-decoration: underline;
+}
+
+/* ---------- IMAGE HOVER ZOOM ---------- */
+img {
+  display: block;
+  max-width: 260px;
+  height: auto;
+  margin: 24px auto 30px auto;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.6);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.35);
+  z-index: 10;
+}
+
+/* ---------- LISTS ---------- */
+ul,
+ol {
+  margin-bottom: 22px;
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #374151;
+  line-height: 1.7;
+}
+
+/* ---------- DIVIDERS ---------- */
+hr {
+  margin: 30px 0;
+  border: 0;
+  height: 1px;
+  background: #d1d5db;
+}
+
+/* ---------- TABLES ---------- */
+table {
+  width: 100%;
+  margin: 24px 0;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+th {
+  background: #f3f4f6;
+  color: #111827;
+  text-align: left;
+  font-weight: 600;
+}
+
+th,
+td {
+  padding: 12px 14px;
+  border: 1px solid #e5e7eb;
+}
+
+/* ---------- CODE BLOCKS ---------- */
+code {
+  background: #f3f4f6;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 0.95em;
+}
+
+pre {
+  background: #111827;
+  color: #f9fafb;
+  padding: 16px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
+/* ---------- FOOTER ---------- */
 .site-footer {
-  border-top: none;
+  display: none;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media screen and (max-width: 900px) {
+  .site-header,
+  .page-content {
+    max-width: 92%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .site-title {
+    font-size: 1.5rem;
+  }
+
+  .site-nav .page-link {
+    margin-left: 14px;
+    font-size: 0.92rem;
+  }
+
+  .page-content {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  img {
+    max-width: 200px;
+  }
 }
