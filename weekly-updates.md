@@ -235,7 +235,7 @@ This week I completed the the major core workflow of the project by adding a CSV
 This week was a definite shift from building the system to presenting it. I think that so far starting to create the demo and diagrams helped make the full data pipeline much more clear and easier to communicate. At this point the backend of my project is stable and complete, so the main goal is making sure the project is well documented and easy to understand for someone who will be viewing it.
 
 ### ER Diagram 
-![Week 10 CRM](images/erdiagramhealthcare.png)
+![ER Diagram](images/erdiagramhealthcare.png)
 
 
 ## Week 12 - Final Testing and Presentation Preparation
