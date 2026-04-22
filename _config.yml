@@ -1,1 +1,9 @@
 theme: minima
+
+title: timothyfitch.github.io
+
+header_pages:
+  - index.md
+  - projectproposal.md
+  - weekly-updates.md
+  - z-demo.md

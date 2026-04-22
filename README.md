@@ -25,6 +25,7 @@ This project is now in the refinement and presentation stage.
 ## Data Model (ER Diagram)
 
 Member (1) ----< Interaction >---- (1) Campaign
+![ER Diagram](images/erdiagramhealthcare.png)
 
 ### Member
 

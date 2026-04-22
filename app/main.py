@@ -1,5 +1,5 @@
 from typing import Optional, List
-from datetime import date
+from datetime import date as dt_date
 import csv
 from io import StringIO
 from fastapi import FastAPI, Depends, HTTPException
@@ -67,7 +67,7 @@ class CampaignOut(BaseModel):
 class InteractionCreate(BaseModel):
     member_id: int
     campaign_id: int
-    date: Optional[date] = None
+    date: Optional[dt_date] = None
     type: Optional[str] = None
     notes: Optional[str] = None
 
@@ -75,7 +75,7 @@ class InteractionCreate(BaseModel):
 class InteractionUpdate(BaseModel):
     member_id: Optional[int] = None
     campaign_id: Optional[int] = None
-    date: Optional[date] = None
+    date: Optional[dt_date] = None
     type: Optional[str] = None
     notes: Optional[str] = None
 
@@ -84,7 +84,7 @@ class InteractionOut(BaseModel):
     id: int
     member_id: int
     campaign_id: int
-    date: Optional[date] = None
+    date: Optional[dt_date] = None
     type: Optional[str] = None
     notes: Optional[str] = None
 

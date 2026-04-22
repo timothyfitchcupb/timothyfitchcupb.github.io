@@ -214,3 +214,43 @@ This week I completed the the major core workflow of the project by adding a CSV
 ### Screenshot 
 ![Week 10 CRM](images/week10ss.png)
 
+## Week 11 - Beginning Demo Process
+
+### What did I do last week?
+- Started work on a clear end to end demo of the system showing the full pipeline from input data → database → API → reporting → CSV export
+- Working on adding a dedicated demo section to the project website with step by step screenshots of the system in use
+- Built a clean ER diagram and system flow diagram to better visualize how the backend components interact
+- Verified again that all API endpoints (CRUD, filtering, reporting, export) are working consistently  
+
+### What do I plan to do this week?
+- Add a few more simple tables or charts based on exported CSV data to better highlight results
+- Do a final pass on testing all endpoints and edge cases
+- Continue polishing content on personal website to make the project as clear and easy to follow as possible
+- Continue on preparing final presentation and overall project summary
+
+### Are there any impediments?
+- No major impediments at this point.
+
+### Reflection
+This week was a definite shift from building the system to presenting it. I think that so far starting to create the demo and diagrams helped make the full data pipeline much more clear and easier to communicate. At this point the backend of my project is stable and complete, so the main goal is making sure the project is well documented and easy to understand for someone who will be viewing it.
+
+### ER Diagram 
+![Week 10 CRM](images/erdiagramhealthcare.png)
+
+
+## Week 12 - Final Testing and Presentation Preparation
+
+### What did I do last week?
+- Continued developing the demo section of the project website to clearly show the full system workflow
+- Began preparing and refining a script for the final project presentation
+
+### What do I plan to do this week?
+- Continue finalizing the presentation and demo workflow
+- Continue final run throughs of system
+- Make any small adjustments if needed based on testing or presentation prep
+
+### Are there any impediments?
+- No major impediments at this point.
+
+### Reflection
+This week was focused on improving how the project is presented. Working on the demo and presentation script helped make the workflow clearer. At this point the backend is complete, so the main priority is making sure everything runs smoothly and can be demonstrated without flaws.

@@ -39,8 +39,15 @@ My vision for CSPB 3112: Professional Development in Computer Science is to buil
 - Week 7: Mid Semester Project Update
 - Week 8: Queries and Filtering
 - Week 9: Reporting Queries
-- Weel 10: Data Export
-
+- Week 10: Data Export and Pipeline Completion
+- Week 11: Beginning Demo Process
+- Week 12: Final Testing and Presentation Preparation
+  
 ### Current Progress Screenshots
-![Week 8 CRM](images/week8ss.png)
+![API Overview](images/demo-api.png)
+![Create Interaction](images/demo-create-interaction.png)
+![Filter Interactions](images/demo-filter-interactions.png)
+![Report by Campaign](images/demo-report-campaign.png)
+![CSV Export](images/demo-export-csv.png)
+
 
