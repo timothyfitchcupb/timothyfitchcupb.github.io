@@ -1,4 +1,4 @@
-# Weekly Project Updates
+# Weekly Updates
 
 ### Week 2 – Project Ideas and Setup
 
@@ -254,3 +254,24 @@ This week was a definite shift from building the system to presenting it. I thin
 
 ### Reflection
 This week was focused on improving how the project is presented. Working on the demo and presentation script helped make the workflow clearer. At this point the backend is complete, so the main priority is making sure everything runs smoothly and can be demonstrated without flaws.
+
+
+## Week 13 - Finalization and Submission
+
+### What did I do last week?
+- Completed the final project report
+- Added a "Final Project Report" section to the "Demo" page 
+- Finalized the screenshot demo showing the full data pipeline
+- Verified all API functionality (CRUD, filtering, reporting, export)
+
+### What do I plan to do this week?
+- Submit the final project
+
+### Are there any impediments?
+
+Only major impediment was time constraints. I very much intended to add a full video demo of the project with voiceover and I have a script written for it but time did not allow for that this week. I still plan to add it for any future demo purposes. 
+
+### Reflection
+
+This week was an interesting one overall. Compiling my final project report as well as going over everything made me stop and realize how much I have accomplished this semester as well as how much I still want to accomplish, both related to this project and for future projects in my career going forward. I would love to develop a frontend for this application next just to challenge myself. 
+

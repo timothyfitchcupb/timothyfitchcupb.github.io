@@ -1,6 +1,6 @@
 ---
 layout: default
-title: System Demo
+title: System Demo and Report
 ---
 
 ## System Demo
@@ -92,3 +92,17 @@ The system supports:
 - Exporting interaction data to CSV
 
 This demonstrates a complete backend data pipeline from input to output.
+
+
+## Final Project Report
+
+You can view the full final project report below or open it in a new tab.
+
+<a href="assets/tfitchcspb3112finalreport.pdf" target="_blank">
+Open in new tab
+</a>
+
+---
+
+<iframe src="assets/tfitchcspb3112finalreport.pdf" width="100%" height="800px">
+</iframe>

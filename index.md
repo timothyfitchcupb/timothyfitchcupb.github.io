@@ -42,6 +42,7 @@ My vision for CSPB 3112: Professional Development in Computer Science is to buil
 - Week 10: Data Export and Pipeline Completion
 - Week 11: Beginning Demo Process
 - Week 12: Final Testing and Presentation Preparation
+- Week 13 - Finalization and Submission
   
 ### Current Progress Screenshots
 ![API Overview](images/demo-api.png)
