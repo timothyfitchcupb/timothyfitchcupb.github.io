@@ -268,7 +268,6 @@ This week was focused on improving how the project is presented. Working on the 
 - Submit the final project
 
 ### Are there any impediments?
-
 Only major impediment was time constraints. I very much intended to add a full video demo of the project with voiceover and I have a script written for it but time did not allow for that this week. I still plan to add it for any future demo purposes. 
 
 ### Reflection
