@@ -22,6 +22,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+Gemfile.lock
 
 # -------------------------
 # OS files
@@ -29,6 +30,8 @@ _site/
 .DS_Store
 Thumbs.db
 
-
+# -------------------------
+# Logs & Environment
+# -------------------------
 *.log
 .env
