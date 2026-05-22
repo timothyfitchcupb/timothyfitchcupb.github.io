@@ -1,29 +1,29 @@
-- id: tourneyz
-  title: Tourneyz
-  category: Web Application
-  status: Team Project
+- id: nlp-emotion-analysis
+  title: AI + NLP Emotion Analysis
+  category: AI + NLP
+  status: Research Project
   year: 2025
-  role: Full-stack team contributor
-  summary: A Flask web app for creating, browsing, joining, and managing local tournaments.
-  thumbnail: images/tourneyz-app-home.png
-  thumbnail_alt: Tourneyz running home page
-  page_url: tourneyz.html
-  github_url: https://github.com/ChadClev/cspb3308_Team2
+  role: NLP pipeline and analysis developer
+  summary: A Python NLP project combining sentiment analysis, emotion lexicons, and transformer-based emotion classification to compare emotional tone after wins and losses.
+  thumbnail: images/nlp-goem-winloss-diff.png
+  thumbnail_alt: GoEmotions win-loss difference chart
+  page_url: nlp-emotion-analysis.html
   featured: true
   tech:
-    - Flask
-    - PostgreSQL
-    - SQLAlchemy
-    - SocketIO
-    - Jinja
-    - JavaScript
+    - Python
+    - PyTorch
+    - Transformers
+    - VADER
+    - NRC EmoLex
+    - pandas
+    - matplotlib
   facts:
     - label: Focus
-      value: Tournament lifecycle and user workflows
+      value: Emotional tone after wins and losses across politics and sports
     - label: Architecture
-      value: Flask templates, routes, database models, and real-time events
-    - label: Demo Mode
-      value: Safe local runner with sample tournament data
+      value: VADER sentiment, NRC EmoLex features, and transformer-based GoEmotions classification
+    - label: Output
+      value: Merged analysis CSVs, statistical comparisons, charts, and final presentation
 
 - id: healthcare-crm
   title: Healthcare Worker Advocacy CRM
@@ -75,3 +75,30 @@
       value: QuadTree and QuadTreeNode classes with dynamic child nodes
     - label: Output
       value: Command-line demo and validation tests
+
+- id: tourneyz
+  title: Tourneyz
+  category: Web Application
+  status: Team Project
+  year: 2025
+  role: Full-stack team contributor
+  summary: A Flask web app for creating, browsing, joining, and managing local tournaments.
+  thumbnail: images/tourneyz-app-home.png
+  thumbnail_alt: Tourneyz running home page
+  page_url: tourneyz.html
+  github_url: https://github.com/ChadClev/cspb3308_Team2
+  featured: true
+  tech:
+    - Flask
+    - PostgreSQL
+    - SQLAlchemy
+    - SocketIO
+    - Jinja
+    - JavaScript
+  facts:
+    - label: Focus
+      value: Tournament lifecycle and user workflows
+    - label: Architecture
+      value: Flask templates, routes, database models, and real-time events
+    - label: Demo Mode
+      value: Safe local runner with sample tournament data

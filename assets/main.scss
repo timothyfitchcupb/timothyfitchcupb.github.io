@@ -400,13 +400,14 @@ img:hover {
   width: 100%;
   max-width: none;
   height: 235px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: top center;
   margin: 0;
   border: 0;
   border-radius: 0;
   box-shadow: none;
   cursor: default;
+  background: #ffffff;
 }
 
 .screenshot-grid img:hover {
