@@ -1,0 +1,15 @@
+{% assign project = include.project %}
+<article class="project-card">
+  <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.thumbnail_alt }}">
+  <div>
+    <p class="project-kicker">{{ project.category }}</p>
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.summary }}</p>
+    <div class="tech-badges compact">
+      {% for tech in project.tech limit: 4 %}
+        <span>{{ tech }}</span>
+      {% endfor %}
+    </div>
+    <a class="button-link" href="{{ project.page_url | relative_url }}">View Case Study</a>
+  </div>
+</article>

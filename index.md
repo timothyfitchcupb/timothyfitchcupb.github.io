@@ -3,52 +3,44 @@ title: Home
 ---
 
 ## Timothy Fitch 
-Timothy.Fitch@colorado.edu || timjosfitch@gmail.com
-
-
-
-### About Me
+Applied Computer Science graduate focused on backend development, databases, and practical software systems.
 
 <img src="images/timheadshot2.png" alt="Timothy Fitch" width="350">
 
-I am an Applied Computer Science student at the University of Colorado Boulder with a prior B.A. in Political Science and History from the University of Kansas. My academic focus is on databases, backend development, data analysis, and practical software systems. I am especially interested in building tools that support organizations, advocacy work, and data driven decision making.
+### About Me
 
-Before returning to school, I worked in roles involving data management, outreach coordination, website maintenance, and administrative support. These experiences strengthened my ability to organize complex information, communicate clearly, and deliver reliable results in real-world environments.
+I am an Applied Computer Science graduate from the University of Colorado Boulder with a prior B.A. in Political Science and History from the University of Kansas. I am especially interested in backend development, relational databases, data analysis, and building software that helps people organize information and make better decisions.
 
-### Technical Skills Developed at CU Boulder
+Before returning to school, I worked in roles involving data management, outreach coordination, website maintenance, and administrative support. That background shaped how I approach software: I care about clear workflows, reliable systems, readable documentation, and tools that solve practical problems rather than just demonstrate technology.
 
-- Programming fundamentals and object oriented design  
-- Data structures and algorithms  
-- Discrete mathematics and problem solving  
-- Computer systems fundamentals  
-- Data science concepts (probability, statistics, linear algebra)  
-- Introductory cybersecurity concepts  
-- Technical teamwork and software development practices (Jira, Github)
-- Relational database design and SQL
+This portfolio reflects both sides of my experience: the technical foundation I developed through computer science work, and the real-world judgment I bring from working with teams, records, communications, and public-facing systems.
 
-## CSPB 3112
+### Technical Focus
 
-My vision for CSPB 3112: Professional Development in Computer Science is to build a simple backend system that manages and reports on nonprofit advocacy data. The goal is to strengthen my skills in database design, backend programming, and working with structured data in a practical and real world setting.
+- Backend development with Python, Flask, FastAPI, and API-driven workflows
+- Relational database design, SQL, SQLAlchemy, and data modeling
+- Data structures, algorithms, object-oriented programming, and C++
+- Frontend fundamentals with HTML, CSS, JavaScript, and Jinja templates
+- Technical collaboration using Git, GitHub, Jira, documentation, and team planning
+- Data analysis foundations including statistics, linear algebra, and structured reporting
 
-### Current Status
-- Week 1 and 2: Project Idea Exploration and Setup
-- Week 3: Beginning Database Design
-- Week 4: Backend Setup and Initial Implementation
-- Week 5: Website Refinement / Database Preparation
-- Week 6: Member CRUD Implementation
-- Week 7: Mid Semester Project Update
-- Week 8: Queries and Filtering
-- Week 9: Reporting Queries
-- Week 10: Data Export and Pipeline Completion
-- Week 11: Beginning Demo Process
-- Week 12: Final Testing and Presentation Preparation
-- Week 13 - Finalization and Submission
-  
-### Current Progress Screenshots
-![API Overview](images/demo-api.png)
-![Create Interaction](images/demo-create-interaction.png)
-![Filter Interactions](images/demo-filter-interactions.png)
-![Report by Campaign](images/demo-report-campaign.png)
-![CSV Export](images/demo-export-csv.png)
+## Featured Projects
+
+<div class="project-grid">
+  {% assign featured_projects = site.data.projects | where: "featured", true %}
+  {% for project in featured_projects %}
+    {% include project-card.html project=project %}
+  {% endfor %}
+</div>
+
+[View all projects](projects.html)
+
+## Contact
+
+I am open to software development, backend, database, and data-focused opportunities.
+
+- Email: [timjosfitch@gmail.com](mailto:timjosfitch@gmail.com)
+- University Email: [Timothy.Fitch@colorado.edu](mailto:Timothy.Fitch@colorado.edu)
+- GitHub: [github.com/timothyfitch](https://github.com/timothyfitch)
 
 

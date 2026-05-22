@@ -1,0 +1,77 @@
+- id: tourneyz
+  title: Tourneyz
+  category: Web Application
+  status: Team Project
+  year: 2025
+  role: Full-stack team contributor
+  summary: A Flask web app for creating, browsing, joining, and managing local tournaments.
+  thumbnail: images/tourneyz-app-home.png
+  thumbnail_alt: Tourneyz running home page
+  page_url: tourneyz.html
+  github_url: https://github.com/ChadClev/cspb3308_Team2
+  featured: true
+  tech:
+    - Flask
+    - PostgreSQL
+    - SQLAlchemy
+    - SocketIO
+    - Jinja
+    - JavaScript
+  facts:
+    - label: Focus
+      value: Tournament lifecycle and user workflows
+    - label: Architecture
+      value: Flask templates, routes, database models, and real-time events
+    - label: Demo Mode
+      value: Safe local runner with sample tournament data
+
+- id: healthcare-crm
+  title: Healthcare Worker Advocacy CRM
+  category: Backend System
+  status: Solo Project
+  year: 2026
+  role: Backend developer and database designer
+  summary: A backend data system for managing advocacy members, campaigns, interactions, reports, and CSV exports.
+  thumbnail: images/demo-api.png
+  thumbnail_alt: Healthcare CRM API overview
+  page_url: healthcare-crm.html
+  featured: true
+  tech:
+    - FastAPI
+    - SQLAlchemy
+    - SQLite
+    - Python
+    - CSV Export
+  facts:
+    - label: Focus
+      value: Database-backed advocacy data workflow
+    - label: Architecture
+      value: FastAPI endpoints, ORM models, reports, and export flow
+    - label: Output
+      value: Local API demo and final project report
+
+- id: quadtree-image-processing
+  title: Quadtree Image Processing
+  category: Data Structures
+  status: Course Project
+  year: 2024
+  role: C++ developer
+  summary: A C++ implementation of a quadtree that recursively partitions grayscale image data by color similarity.
+  thumbnail: images/quadtree-output.png
+  thumbnail_alt: Quadtree program compiling and test output
+  page_url: quadtree-image-processing.html
+  github_url: https://github.com/timothyfitch/CSPB2270quadtrees
+  featured: true
+  tech:
+    - C++
+    - Quadtrees
+    - Recursion
+    - Data Structures
+    - Testing
+  facts:
+    - label: Focus
+      value: Recursive spatial subdivision of grayscale image data
+    - label: Architecture
+      value: QuadTree and QuadTreeNode classes with dynamic child nodes
+    - label: Output
+      value: Command-line demo and validation tests

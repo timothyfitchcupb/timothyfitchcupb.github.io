@@ -99,7 +99,7 @@ Member (1) ----< Interaction >---- (1) Campaign
 
 A full walkthrough of the system (including screenshots of API usage and outputs) is available on the project website:
 
-👉 https://timothyfitchcupb.github.io
+👉 https://timothyfitch.github.io
 
 ---
 
@@ -146,7 +146,7 @@ Many advocacy organizations rely on spreadsheets that are difficult to scale and
 
 ## Project Website
 
-https://timothyfitchcupb.github.io
+https://timothyfitch.github.io
 
 ---
 

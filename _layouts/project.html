@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+{% assign project = site.data.projects | where: "id", page.project_id | first %}
+
+<section class="project-hero">
+  <p class="project-kicker">{{ project.category }}</p>
+  <h2>{{ project.title }}</h2>
+  <p class="project-summary">{{ project.summary }}</p>
+
+  <div class="project-actions">
+    {% if project.github_url %}
+      <a class="button-link" href="{{ project.github_url }}" target="_blank" rel="noopener">GitHub Repository</a>
+    {% endif %}
+    {% if page.demo_url %}
+      <a class="button-link secondary" href="{{ page.demo_url }}">Local Demo Notes</a>
+    {% endif %}
+  </div>
+</section>
+
+<section class="project-facts">
+  <div>
+    <span>Status</span>
+    <strong>{{ project.status }}</strong>
+  </div>
+  <div>
+    <span>Role</span>
+    <strong>{{ project.role }}</strong>
+  </div>
+  <div>
+    <span>Year</span>
+    <strong>{{ project.year }}</strong>
+  </div>
+  {% for fact in project.facts %}
+    <div>
+      <span>{{ fact.label }}</span>
+      <strong>{{ fact.value }}</strong>
+    </div>
+  {% endfor %}
+</section>
+
+<section>
+  <h3>Tech Stack</h3>
+  <div class="tech-badges">
+    {% for tech in project.tech %}
+      <span>{{ tech }}</span>
+    {% endfor %}
+  </div>
+</section>
+
+{{ content }}
+
+{% if page.screenshots %}
+  <section>
+    <h3>Screenshots</h3>
+    {% if page.screenshot_note %}
+      <p>{{ page.screenshot_note }}</p>
+    {% endif %}
+    <div class="screenshot-grid">
+      {% for image in page.screenshots %}
+        <figure>
+          <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}">
+          <figcaption>{{ image.caption }}</figcaption>
+        </figure>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
+
+{% if page.concepts %}
+  <section>
+    <h3>Early Concepts</h3>
+    {% if page.concept_note %}
+      <p>{{ page.concept_note }}</p>
+    {% endif %}
+    <div class="screenshot-grid">
+      {% for image in page.concepts %}
+        <figure>
+          <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}">
+          <figcaption>{{ image.caption }}</figcaption>
+        </figure>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}

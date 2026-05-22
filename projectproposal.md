@@ -39,5 +39,5 @@ I want to build a small and purposeful system that models this work more cleanly
 - Code and documentation are published  
 
 ### Project Portfolio Link
-https://timothyfitchcupb.github.io
+https://timothyfitch.github.io
 
