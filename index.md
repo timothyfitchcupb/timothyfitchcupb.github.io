@@ -15,7 +15,7 @@ Before returning to school, I worked in roles involving data management, outreac
 
 This portfolio reflects both sides of my experience: the technical foundation I developed through computer science work, and the real-world judgment I bring from working with teams, records, communications, and public-facing systems.
 
-### Technical Focus
+### Core Competencies
 
 - Backend development with Python, Flask, FastAPI, and API-driven workflows
 - Relational database design, SQL, SQLAlchemy, and data modeling
@@ -23,10 +23,6 @@ This portfolio reflects both sides of my experience: the technical foundation I 
 - Frontend fundamentals with HTML, CSS, JavaScript, and Jinja templates
 - Technical collaboration using Git, GitHub, Jira, documentation, and team planning
 - Data analysis foundations including statistics, linear algebra, and structured reporting
-
-## Technologies
-
-Python • C++ • SQL • FastAPI • Flask • SQLAlchemy • SQLite • Git • GitHub • HTML • CSS • JavaScript • PyTorch • Transformers • Natural Language Processing
 
 ## Featured Projects
 
