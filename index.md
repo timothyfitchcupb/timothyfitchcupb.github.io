@@ -3,7 +3,7 @@ title: Home
 ---
 
 ## Timothy Fitch 
-Applied Computer Science graduate focused on backend development, databases, and practical software systems.
+Applied Computer Science graduate with experience building backend systems, APIs, relational databases, and data-driven applications.
 
 <img src="images/timheadshot2.png" alt="Timothy Fitch" width="350">
 
@@ -24,10 +24,14 @@ This portfolio reflects both sides of my experience: the technical foundation I 
 - Technical collaboration using Git, GitHub, Jira, documentation, and team planning
 - Data analysis foundations including statistics, linear algebra, and structured reporting
 
+## Technologies
+
+Python • C++ • SQL • FastAPI • Flask • SQLAlchemy • SQLite • Git • GitHub • HTML • CSS • JavaScript • PyTorch • Transformers • Natural Language Processing
+
 ## Featured Projects
 
 <div class="project-grid">
-  {% assign featured_projects = site.data.projects | where: "featured", true %}
+  {% assign featured_projects = site.data.projects | where: "featured", true | sort: "order" %}
   {% for project in featured_projects %}
     {% include project-card.html project=project %}
   {% endfor %}
