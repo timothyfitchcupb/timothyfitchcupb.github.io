@@ -5,7 +5,7 @@ title: Home
 ## Timothy Fitch 
 Applied Computer Science graduate with experience building backend systems, APIs, relational databases, and data-driven applications.
 
-<img src="images/timheadshot2.png" alt="Timothy Fitch" width="350">
+<img src="images/timfitchheadshotfinal.png" alt="Timothy Fitch" width="350">
 
 ### About Me
 
