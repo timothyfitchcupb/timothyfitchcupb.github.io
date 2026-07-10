@@ -1,4 +1,4 @@
-- id: healthcare-crm
+﻿- id: healthcare-crm
   order: 1
   title: Healthcare Worker Advocacy CRM
   category: Backend System
@@ -24,8 +24,36 @@
     - label: Output
       value: Local API demo and final project report
 
-- id: tourneyz
+- id: postshow
   order: 2
+  title: PostShow
+  category: Backend Web App
+  status: Personal Project
+  year: 2026
+  role: Full-stack developer
+  summary: A FastAPI and SQLite concert-poster web app with session accounts, CRUD APIs, profile and feed views, media uploads, and social sharing workflows.
+  thumbnail: images/postshow-profile-dark.png
+  thumbnail_alt: PostShow profile page in dark mode
+  page_url: postshow.html
+  github_url: https://github.com/timothyfitch/PostShow
+  featured: true
+  tech:
+    - FastAPI
+    - SQLite
+    - Jinja
+    - Python
+    - JavaScript
+    - CSS
+  facts:
+    - label: Focus
+      value: Concert poster collection, profiles, feeds, and sharing
+    - label: Architecture
+      value: FastAPI routes, SQLite repository layer, Jinja templates, and media uploads
+    - label: Output
+      value: Local product prototype with API routes, user accounts, and mixed-theme UI
+
+- id: tourneyz
+  order: 3
   title: Tourneyz
   category: Web Application
   status: Team Project
@@ -53,7 +81,7 @@
       value: Safe local runner with sample tournament data
 
 - id: nlp-emotion-analysis
-  order: 3
+  order: 4
   title: AI + NLP Emotion Analysis
   category: AI + NLP
   status: Research Project
@@ -81,7 +109,7 @@
       value: Merged analysis CSVs, statistical comparisons, charts, and final presentation
 
 - id: quadtree-image-processing
-  order: 4
+  order: 5
   title: Quadtree Image Processing
   category: Data Structures
   status: Course Project
